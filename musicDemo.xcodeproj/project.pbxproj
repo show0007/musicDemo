@@ -24,6 +24,10 @@
 		69236BCC24C3339A001BC690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69236BCF24C3339A001BC690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69236BD124C3339A001BC690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6997D14C24C37FEC008520D8 /* musicDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicDemoTests.swift; sourceTree = "<group>"; };
+		6997D14E24C37FEC008520D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6997D15A24C38022008520D8 /* musicDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicDemoUITests.swift; sourceTree = "<group>"; };
+		6997D15C24C38022008520D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 			isa = PBXGroup;
 			children = (
 				69236BC224C3339A001BC690 /* musicDemo */,
+				6997D14B24C37FEC008520D8 /* musicDemoTests */,
+				6997D15924C38022008520D8 /* musicDemoUITests */,
 				69236BC124C3339A001BC690 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +71,24 @@
 				69236BD124C3339A001BC690 /* Info.plist */,
 			);
 			path = musicDemo;
+			sourceTree = "<group>";
+		};
+		6997D14B24C37FEC008520D8 /* musicDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6997D14C24C37FEC008520D8 /* musicDemoTests.swift */,
+				6997D14E24C37FEC008520D8 /* Info.plist */,
+			);
+			path = musicDemoTests;
+			sourceTree = "<group>";
+		};
+		6997D15924C38022008520D8 /* musicDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6997D15A24C38022008520D8 /* musicDemoUITests.swift */,
+				6997D15C24C38022008520D8 /* Info.plist */,
+			);
+			path = musicDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
